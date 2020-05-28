@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="author" content="Alexander Lashkevixh" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Test Task</title>
   </head>
@@ -27,18 +30,17 @@
         <div class="about__body">
           <img src="./assets/chair.png" alt="chair" class="about_img">
           <div class="about__descr">
-            <h4>We Actually Do amazing works</h4>
-            <p>A visual approach is an approach to a runway at an airport 
+            <h3>We Actually Do amazing works</h3>
+            <p class="descr__p_first">A visual approach is an approach to a runway at an airport 
               conducted under instrument flight rules. The pilot must at all times have either the airport or the preceding aircraft in approach correct sight. conducted under instrument flight rules. The pilot must at all times.
-            </p>
-            <p>
+            </p >
+            <p class="descr__p_second">
               Preceding aircraft in approach correct sight. conducted under instrument flight rules.
             </p>
             <h4>why we are the great?</h4>
-            <p>
+            <p class="descr__p_third">
               A visual approach is an approach to a runway at an airport 
-              conducted under instrument flight rules.
-              The preceding aircraft in approach correct sight.
+              conducted under instrument flight rules. <br> The preceding aircraft in approach correct sight.
             </p>
           </div>
         </div>
@@ -48,14 +50,65 @@
         <h2 class="works__head-h">FEATURED WORKS</h2>
         <p class="works__head-p">Lorem ipsum dolor sit amet event landing template</p>
         <div class="works__images-wrap">
-          <img src="./assets/banner1.png" alt="banner1">
-          <img src="./assets/banner2.png" alt="banner2">
-          <img src="./assets/banner3.png" alt="banner3">
-          <img src="./assets/banner4.png" alt="banner4">
-          <img src="./assets/banner5.png" alt="banner5">
-          <img src="./assets/banner6.png" alt="banner6">
+          <img src="./assets/banner1.jpg" alt="banner1">
+          <img src="./assets/banner2.jpg" alt="banner2">
+          <img src="./assets/banner3.jpg" alt="banner3">
+          <img src="./assets/banner4.jpg" alt="banner4">
+          <img src="./assets/banner5.jpg" alt="banner5">
+          <img src="./assets/banner6.jpg" alt="banner6">
         </div>
       </section>
+
+      <section class="team">
+        <h2 class="team__head-h">SMALL TEAM</h2>
+        <p class="team__head-p">Lorem ipsum dolor sit amet event landing template</p>
+        <div class="team__images-wrap">
+          <img src="./assets/team_1.jpg" alt="banner1">
+          <img src="./assets/team_2.jpg" alt="banner2">
+          <img src="./assets/team_3.jpg" alt="banner3">
+          <img src="./assets/team_4.jpg" alt="banner4">
+          <img src="./assets/team_5.jpg" alt="banner5">
+          <img src="./assets/team_6.jpg" alt="banner6">
+        </div>
+      </section>
+
+      <section class="form">
+				<div class="form__wrapper">
+					<div class="form__block">
+						<form action="./index.html" method="GET" id="form">
+								<input id="name" type="text" maxlength="25" title="Please, enter your name" required class="form__input_name" placeholder="Name">
+                <input type="text"  placeholder="Subject" id="subject">
+                <input type="email" name="email" placeholder="Email" id="email" required>
+								<textarea name="textarea" placeholder="Message" id="text" cols="30" rows="5"></textarea>
+								<input class="form__submit" type="submit" value="SEND MESSAGE" id="submit">
+						</form>
+					</div> 
+				
+					<div class="contacts">
+						<ul class="contacts__list">
+              <li class="contacts__location_first"><span>Adress line 1</span></li>
+              <li class="contacts__location_second"><span>Adress line 2</span></li>
+              <li class="contacts__phone_number"> <a href="tel:035283318635">Phone: +548 945645</a></li>
+              <li class="contacts-phone_fax"> <a href="fax:035283318635">Fax: +456456 54546</a></li>
+              <li class="contacts__site"><a href="url:info@singolo.com">Web: www.designagency.net</a> </li>
+              <li class="contacts__mail"><a href="mailto:info@singolo.com">E-mail: info@designagency.net</a> </li>
+            </ul>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9403.250955720781!2d27.55563785751375!3d53.899532244262154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1590530931258!5m2!1sru!2sby" width="455" height="225" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+      </section>
+
+      <footer class="links">
+        <h4 class="links__head">
+          FOLLOW US
+        </h4>
+        <div class="links__img_wrap">
+          <a href="#" class="links__link fab fa-pinterest-p"></a>
+          <a href="#" class="links__link fab fa-twitter"></a>
+          <a href="#" class="links__link fab fa-facebook-f"></a>
+          <a href="#" class="links__link fab fa-dribbble"></a>
+        </div>
+      </footer>
       
     </div>
   </body>
